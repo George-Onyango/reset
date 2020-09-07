@@ -381,6 +381,11 @@ $(document).ready(function () {
         $("#large").slideToggle(1000);
 
     });
+    $("#checkout").click(function(omega){
+        var check = prompt("Enter your location");
+        alert(check);
+        omega.preventDefault();
+    })
 
     // check checkbox in item click
     $('li').click(function() {

@@ -164,3 +164,6 @@ body{
   text-transform: capitalize;
    
 }
+#checkout{
+  list-style-type: none;
+}
