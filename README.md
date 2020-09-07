@@ -15,6 +15,8 @@ code .
 Project description: 
 This is the week four project a pizza menu fully arranged and functional.
 
+The initial project crashed on me so if possible use the initial project commits please.
+
 
 License info:
 
