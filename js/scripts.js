@@ -405,54 +405,6 @@ $(document).ready(function () {
 
     // calculate price on checkboxes click
     $("input[type=checkbox]").change(function () {
-        // var total = calculateTotal()
-        // $("#total").text(total);
-
-        // the pizza
-        // var smallSize = $("#size1")
-        // var mediumSize = $("#size2")
-        // var largeSize = $("#size3")
-        // var pizzaSizes = new pizzaSize(smallSize, mediumSize, largeSize);
-        // var pizzaSizesTotal = pizzaSizes.getTotal();
-
-        // // the crust
-        // var crispyCrust = $('#crust1')
-        // var glutenFreeCrust = $("#crust2")
-        // var stuffedCrust = $("#crust3")
-        // var pizzaCrust = new typeOfCrust(crispyCrust, glutenFreeCrust, stuffedCrust)
-        // var crustTotal = pizzaCrust.getTotal();
-
-        // // the cheese
-        // var morzarella = $("#morzarella")
-        // var cheddar = $("#cheddar")
-        // var feta = $("#feta")
-        // var extraCheese = new pizzaCheese(morzarella, cheddar, feta)
-        // var cheeseTotal = extraCheese.getTotal();
-
-        // // toppings
-        // var macon = $("#macon")
-        // var BbqChicken = $("#bbqchi")
-        // var Boerewors = $("#boer")
-        // var chickenTikka = $("#chickentik")
-        // var sandwichBeef = $("#sandwich")
-        // var Pepperoni = $("#pepperoni")
-        // var PeriChicken = $("#perichick")
-        // var BbqSteak = $("#bbqsteak")
-        // var meatAdd = new extraTopping(macon, BbqChicken, Boerewors, chickenTikka, sandwichBeef, Pepperoni, PeriChicken, BbqSteak)
-        // var toppingsTotal = meatAdd.getTotal();
-
-        // //veggie
-        // var chilli = $("#chilli")
-        // var GreenPepper = $("#pepper")
-        // var Jalapenos = $("#jala")
-        // var Mushrooms = $("#mushroom")
-        // var Olives = $("#olives")
-        // var Onion = $("#onion")
-        // var Pineapple = $("#apple")
-        // var Sweetcorn = $("#sweetcorn")
-        // var greens = new extraVeggieToppings(chilli, GreenPepper, Jalapenos, Mushrooms, Olives, Onion, Pineapple, Sweetcorn)
-        // var veggieMega = greens.getTotal();
-
         // the total price
         var totalPrice = calcTotal()
         $('#total').text(totalPrice);
