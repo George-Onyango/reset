@@ -8,7 +8,7 @@ Authors
 
 Project setup instructions: To start using this project use the following commands:
 
-git clone: https://github.com/George-Onyango/flexport.git 
+git clone: https://github.com/George-Onyango/Pizza-villa.git
 cd valor-pizza
 code .
 
